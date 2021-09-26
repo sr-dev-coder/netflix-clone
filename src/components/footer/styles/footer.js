@@ -1,6 +1,6 @@
 import styled from 'styled-components/macro';
 
-export const Inner = styled.div`
+export const Inner = styled.footer`
     border-top: 0.8rem solid #222;
 `;
 export const Container = styled.div`

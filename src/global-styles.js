@@ -13,4 +13,10 @@ export const GlobalStyles = createGlobalStyle`
         color: #333333;
         font-size: 10px;
     }
+    h1, h2, h3, h4, h5, h6{
+        margin-top: 0rem;
+    }
+    img{
+        max-width:100%;
+    }
 `;
