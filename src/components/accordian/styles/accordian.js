@@ -27,7 +27,7 @@ export const Title = styled.h2`
 
 export const FaqList = styled.ul`
     width: 75%;
-    margin: 3.2rem auto;
+    margin: 3.2rem auto 5rem;
     max-width:81.5rem;
     padding:0px;
     @media(max-width: 949px){

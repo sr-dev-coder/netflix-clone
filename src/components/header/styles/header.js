@@ -4,8 +4,7 @@ import { Link as ReachRouterLink } from 'react-router-dom';
 export const Background = styled.div`
     display: flex;
     flex-direction: column;
-
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.35)), url(${({ src }) => (src ? `../images/home/${src}.jpg` : '../images/home/banner.jpg')}) top left / cover
+    background: linear-gradient(to top,rgba(0,0,0,.8) 0,rgba(0,0,0,0) 60%,rgba(0,0,0,.8) 100%), url(${({ src }) => (src ? `../images/home/${src}.jpg` : '../images/home/banner.jpg')}) top left / cover
     no-repeat;
 `;
 

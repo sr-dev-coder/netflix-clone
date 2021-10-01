@@ -3,6 +3,13 @@ import styled from 'styled-components/macro';
 export const Title = styled.h3`
     font-size:1.8rem;
     padding-bottom:2rem;
+    margin-bottom:0px;
+    color:#fff;
+    display:flex;
+    max-width:100%;
+    flex: 0 0 100%;
+    text-align:center;
+    justify-content:center;
 `;
 
 export const Container = styled.div`
@@ -20,6 +27,7 @@ export const Input = styled.input`
     padding: 10px;
     height: 70px;
     box-sizing: border-box;
+    font-size:1.6rem;
 `;
 
 export const Button = styled.button`
@@ -37,12 +45,16 @@ export const Button = styled.button`
     margin-left: 10px;
     filter: brightness(0) invert(1);
     width: 24px;
+    
         @media (max-width: 1000px) {
             width: 16px;
         }
     }
     &:hover {
         background: #f40612;
+    }
+    & svg{
+        margin-left: 1.6rem;
     }
     @media (max-width: 1000px) {
         height: 50px;
