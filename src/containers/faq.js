@@ -1,4 +1,4 @@
-import { Accordian } from '../components';
+import { Accordian, OptForm } from '../components';
 import faqData from './../data/faq.json';
 
 export const FaqContainer = () =>{
@@ -16,6 +16,12 @@ export const FaqContainer = () =>{
                         ))
                     }                    
                 </Accordian.FaqList>
+
+                <OptForm>
+                    <OptForm.Title>Ready to watch? Enter your email to create or restart your membership.</OptForm.Title>
+                    
+                </OptForm>
+
             </Accordian.Container>
         </Accordian>
     )
